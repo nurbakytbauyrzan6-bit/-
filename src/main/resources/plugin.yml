@@ -1,0 +1,16 @@
+name: CustomGamma
+version: '1.0.0'
+main: com.example.customgamma.CustomGammaPlugin
+api-version: '1.21'
+author: YourName
+description: Toggle night vision effect via /gamma command
+
+commands:
+  gamma:
+    description: Toggles night vision effect
+    usage: /gamma
+
+permissions:
+  customgamma.use:
+    description: Allows usage of the /gamma command
+    default: true
